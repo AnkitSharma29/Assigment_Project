@@ -1,0 +1,21 @@
+{
+    "name": "loginform",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon src/app.js -e js,hbs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.1.0",
+        "hbs": "^4.1.1",
+        "mongoose": "^5.10.15",
+        "nodemailer": "^6.4.17",
+        "validator": "^13.1.17"
+    }
+}
